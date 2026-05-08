@@ -337,7 +337,7 @@
 }
 
 .featured-tab .nav-tabs > li > a {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   background: #272d33;
   color: #fff;
   text-shadow: none;
@@ -369,7 +369,7 @@
 
 .featured-tab .nav-tabs > li.active > a:after {
   position: absolute;
-  content: " ";
+  content: ' ';
   width: auto;
   height: auto;
   bottom: -20px;
@@ -699,7 +699,7 @@
     &:after {
       opacity: 0;
       position: absolute;
-      content: "";
+      content: '';
       top: 0;
       right: auto;
       left: 0;
@@ -877,7 +877,7 @@
     padding-bottom: 10px;
 
     &:before {
-      font-family: "Font Awesome 5 Free";
+      font-family: 'Font Awesome 5 Free';
       position: absolute;
       z-index: 0;
       font-size: 14px;
@@ -886,17 +886,17 @@
       text-align: center;
       border-radius: 3px;
       top: 12px;
-      content: "\f107";
+      content: '\f107';
       font-weight: 700;
       background-color: #333;
       color: #fff;
       transition: 0.3s;
     }
 
-    &[aria-expanded="true"] {
+    &[aria-expanded='true'] {
       color: #ffb600;
       &::before {
-        content: "\f106";
+        content: '\f106';
         background-color: #ffb600;
       }
     }
@@ -957,8 +957,8 @@
 }
 
 .quote-item .quote-text:before {
-  content: "\f10d";
-  font-family: "Font Awesome 5 Free";
+  content: '\f10d';
+  font-family: 'Font Awesome 5 Free';
   position: absolute;
   font-size: 30px;
   left: 0;
@@ -1018,7 +1018,7 @@ img.testimonial-thumb {
   border-top-color: #ffb600;
   bottom: -24px;
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   height: 0;
   width: 0;
@@ -1032,7 +1032,7 @@ img.testimonial-thumb {
   border-color: #fff transparent transparent;
   bottom: -22px;
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   height: 0;
   width: 0;
@@ -1105,7 +1105,7 @@ img.testimonial-thumb {
     text-align: center;
   }
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     background: #252525;
     display: block;
@@ -1208,7 +1208,6 @@ img.testimonial-thumb {
     display: inline-block;
     a i {
       display: block;
-      font-size: 16px;
       color: #999;
       transition: 400ms;
       padding: 10px 13px;

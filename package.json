@@ -25,5 +25,8 @@
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
     "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
   }
 }
