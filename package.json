@@ -1,8 +1,8 @@
 {
-  "name": "constra",
+  "name": "ranovarte",
   "version": "2.1.0",
-  "description": "constra free construction template",
-  "author": "Themefisher",
+  "description": "ranovartereforma",
+  "author": "RenovarteReforma",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
