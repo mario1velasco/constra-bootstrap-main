@@ -34,6 +34,10 @@
     <!-- Preload critical images for LCP -->
     <link rel="preload" as="image" href="images/new/guy-white.webp">
 
+    <!-- Preload critical FontAwesome fonts -->
+    <link rel="preload" as="font" href="plugins/fontawesome/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="plugins/fontawesome/webfonts/fa-brands-400.woff2" type="font/woff2" crossorigin>
+
     <!-- CSS
 ================================================== -->
     <!-- Bootstrap - Critical path -->
@@ -46,12 +50,12 @@
     <!-- Template styles - Critical path -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Defer non-critical CSS -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css" media="print" onload="this.media='all'" />
+    <!-- ! Defer non-critical CSS -->
+    <!-- <link rel="stylesheet" href="plugins/animate-css/animate.css" media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href="plugins/animate-css/animate.css" /></noscript>
 
     <link rel="stylesheet" href="plugins/colorbox/colorbox.css" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="plugins/colorbox/colorbox.css" /></noscript>
+    <noscript><link rel="stylesheet" href="plugins/colorbox/colorbox.css" /></noscript> -->
 
     <!-- SEO Schema -->
     <script type="application/ld+json">

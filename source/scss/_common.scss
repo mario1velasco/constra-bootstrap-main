@@ -1,6 +1,17 @@
 /* Global styles
 ================================================== */
 
+/* Font display optimization - reduce layout shift */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-display: swap;
+}
+
 html {
   overflow-x: hidden !important;
   width: 100%;
