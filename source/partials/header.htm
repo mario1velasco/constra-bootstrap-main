@@ -1,16 +1,3 @@
-<!-- 
-THEME: Constra - Construction Html5 Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/constra-construction-template/
-DEMO: https://demo.themefisher.com/constra/
-GITHUB: https://github.com/themefisher/Constra-Bootstrap-Construction-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
--->
 
 <!doctype html>
 <html lang="es">
@@ -37,21 +24,34 @@ FACEBOOK: https://www.facebook.com/themefisher
 ================================================== -->
     <link rel="icon" type="image/png" href="images/favicon.png" />
 
+    <!-- Preconnect to external resources for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Load Google Fonts with optimal display strategy -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap">
+
+    <!-- Preload critical images for LCP -->
+    <link rel="preload" as="image" href="images/new/guy-white.jpg">
+
     <!-- CSS
 ================================================== -->
-    <!-- Bootstrap -->
+    <!-- Bootstrap - Critical path -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-    <!-- FontAwesome -->
+    <!-- FontAwesome - Critical path -->
     <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
-    <!-- Animation -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
-    <!-- slick Carousel -->
+    <!-- slick Carousel - Critical path -->
     <link rel="stylesheet" href="plugins/slick/slick.css" />
     <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
-    <!-- Colorbox -->
-    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
-    <!-- Template styles-->
+    <!-- Template styles - Critical path -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Defer non-critical CSS -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="plugins/animate-css/animate.css" /></noscript>
+
+    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="plugins/colorbox/colorbox.css" /></noscript>
 
     <!-- SEO Schema -->
     <script type="application/ld+json">
