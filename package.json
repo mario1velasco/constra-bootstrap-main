@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp build",
+    "build": "gulp build && npm run purge",
+    "purge": "purgecss --config purgecss.config.js",
     "download": "gulp download",
     "deploy": "gulp deploy"
   },
@@ -27,6 +28,7 @@
     "sass": "^1.54.0"
   },
   "devDependencies": {
-    "prettier": "^3.8.3"
+    "prettier": "^3.8.3",
+    "purgecss": "^8.0.0"
   }
 }

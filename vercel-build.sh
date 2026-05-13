@@ -11,3 +11,7 @@ npm install
 # generate demo
 echo "Generating demo site..."
 npm run deploy
+
+# optimize CSS with PurgeCSS
+echo "Optimizing CSS with PurgeCSS..."
+npm run purge
