@@ -13,31 +13,25 @@ FACEBOOK: https://www.facebook.com/themefisher
 -->
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Basic Page Needs
 ================================================== -->
     <meta charset="utf-8" />
-    <title>RENOVARTE - Reformas en General Santiago de Compostela</title>
+    <title>@@title</title>
 
     <!-- Mobile Specific Metas
 ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="RENOVARTE - Empresa de reformas en Santiago de Compostela. Albañilería, pintura, pladur y alicatado."
-    />
+    <meta name="description" content="@@description" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
     />
-    <meta property="og:title" content="RENOVARTE - Reformas en General Santiago de Compostela" />
-    <meta property="og:description" content="RENOVARTE - Empresa de reformas en Santiago de Compostela. Albañilería, pintura, pladur y alicatado." />
+    <meta property="og:title" content="@@title" />
+    <meta property="og:description" content="@@description" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="images/new/logo-white.jpg" />
-
-    <!-- theme meta -->
-    <meta name="theme-name" content="constra" />
 
     <!-- Favicon
 ================================================== -->
@@ -58,6 +52,29 @@ FACEBOOK: https://www.facebook.com/themefisher
     <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
     <!-- Template styles-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- SEO Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "RENOVARTE",
+        "description": "Empresa de reformas en Santiago de Compostela y área metropolitana.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rúa Ameneiral, 10",
+          "addressLocality": "Bertamiráns",
+          "postalCode": "15220",
+          "addressRegion": "A Coruña",
+          "addressCountry": "ES"
+        },
+        "telephone": "+34613963660",
+        "email": "renovartereforma@gmail.com",
+        "areaServed": "Santiago de Compostela",
+        "priceRange": "€",
+        "sameAs": ["https://www.instagram.com/renovartereforma"]
+      }
+    </script>
   </head>
   <body>
     <div class="body-inner">
@@ -68,7 +85,10 @@ FACEBOOK: https://www.facebook.com/themefisher
               <ul class="top-info text-center text-md-left">
                 <li>
                   <i class="fas fa-map-marker-alt"></i>
-                  <p class="info-text">Santiago de Compostela, Galicia</p>
+                  <p class="info-text">
+                    Rúa Ameneiral, 10 - Bertamiráns (Ames) - Santiago de
+                    Compostela
+                  </p>
                 </li>
               </ul>
             </div>
