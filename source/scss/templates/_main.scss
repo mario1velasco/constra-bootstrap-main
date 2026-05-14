@@ -456,6 +456,141 @@
   margin: 0;
 }
 
+/* Budget Request
+================================================== */
+
+.budget-request-area {
+  padding: 80px 0;
+}
+
+.budget-request-wrapper {
+  text-align: left;
+}
+
+.budget-request-content {
+  padding-right: 40px;
+  @media (max-width: 991px) {
+    padding-right: 0;
+  }
+}
+
+.budget-request-title {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.budget-request-subtitle {
+  font-size: 18px;
+  color: #ffb600;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.budget-request-text {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.budget-request-button-wrapper {
+  text-align: center;
+  @media (max-width: 991px) {
+    text-align: left;
+  }
+}
+
+.btn-budget-request {
+  background-color: #ffb600;
+  color: #000;
+  border: 2px solid #ffb600;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #252525;
+    border-color: #fff;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 182, 0, 0.5);
+  }
+
+  i {
+    font-size: 18px;
+  }
+}
+
+.budget-contact-options {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 25px;
+  border: 1px solid rgba(255, 182, 0, 0.3);
+  display: block;
+}
+
+.contact-option {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contact-option-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffb600;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+
+  i {
+    margin-right: 8px;
+  }
+}
+
+.contact-option-content {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+
+  .phone-link,
+  .email-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 600;
+
+    &:hover {
+      color: #ffb600;
+    }
+  }
+
+  .phone-number {
+    display: inline;
+  }
+
+  .separator {
+    color: #ffb600;
+    margin: 0 8px;
+  }
+}
+
 /* Services
 ================================================== */
 
